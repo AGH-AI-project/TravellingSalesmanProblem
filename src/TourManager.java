@@ -2,20 +2,20 @@ import java.util.ArrayList;
 
 public class TourManager {
 
-    // Holds our cities
-    private static ArrayList destinationCities = new ArrayList<City>();
+    // List of cities without any connections
+    private static ArrayList<City> destinationCities = new ArrayList<>();
 
-    // Adds a destination city
+
     public static void addCity(City city) {
         destinationCities.add(city);
     }
 
-    // Get a city
+
     public static City getCity(int index){
-        return (City)destinationCities.get(index);
+        return destinationCities.get(index);
     }
 
-    // Get the number of destination cities
+
     public static int numberOfCities(){
         return destinationCities.size();
     }

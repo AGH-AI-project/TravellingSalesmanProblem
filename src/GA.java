@@ -1,9 +1,9 @@
 public class GA {
 
     /* GA parameters */
-    private static final double mutationRate = 0.015;
+    private static final double mutationRate = 0.015; //the frequency of new mutations in a single gene
     private static final int tournamentSize = 5;
-    private static final boolean elitism = true;
+    private static final boolean elitism = true; //enable copying a small proportion of the fittest candidates into next generation
 
     // Evolves a population over one generation
     public static Population evolvePopulation(Population pop) {

@@ -1,6 +1,6 @@
 public class City {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     // Constructs a randomly placed city
     public City(){
@@ -14,12 +14,12 @@ public class City {
         this.y = y;
     }
 
-    // Gets city's x coordinate
+
     public int getX(){
         return this.x;
     }
 
-    // Gets city's y coordinate
+
     public int getY(){
         return this.y;
     }
